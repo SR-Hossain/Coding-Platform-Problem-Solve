@@ -22,7 +22,7 @@ ans_for_ones = n-1 + n-2 + n-3 + ... + n-k
 - find first index of the max element
 - if the max element is side by side consecutively, find its last index too
 
-```
+```python
 # in merge_sort method
 mx = max(arr[l:r + 1])
 midleft = l
