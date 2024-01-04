@@ -46,7 +46,7 @@ merge_sort(midright + 1, r)
 4 1 3 5 1 **12 12 12 12*** 4 2 12 4 1
 
 1 1 3 4 5 **12 12 12 12*** 1 2 4 4 12
-```
+```python
 i = midleft - 1
 j = midright + 1
 while i >= l and j <= r:
@@ -64,7 +64,7 @@ ans = ans + ans_for_ones
 
 
 # Full code
-```
+```python
 def merge(left_index, right_index, left_index_of_max_element, right_element_of_max_element):
     i, j = left_index, right_element_of_max_element + 1
     tmp = []
