@@ -1,3 +1,39 @@
+# [1288D - MiniMax Problem](https://codeforces.com/problemset/problem/1288/D)
+
+Binary Search from 0 to 10**10
+
+bitmask the array element with 1 where element>=ans (binary search)
+
+input:
+
+```
+6 5
+5 0 3 1 2
+1 8 9 1 3
+1 2 3 4 5
+9 1 0 3 7
+2 3 0 6 3
+6 4 1 7 0
+```
+
+output:
+
+```
+1 5
+```
+
+The answer is : 3
+
+For 3,
+
+arr[1] = 10100, here arr[1][i]=1 if arr[1][i]>=3
+
+arr[5] = 01011
+
+So, we are replacing the max value from both arr[1] and arr[5], we have
+
+11111 (2**m-1)
+
 ```python
 n, m = map(int, input().split())
 
