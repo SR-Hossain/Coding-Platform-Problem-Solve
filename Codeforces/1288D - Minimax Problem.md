@@ -22,7 +22,7 @@ output:
 1 5
 ```
 
-The answer is : 3
+The answer is: 3
 
 For 3,
 
